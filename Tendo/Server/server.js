@@ -1,7 +1,7 @@
 ﻿var express = require('express');
 var app = express();
 var infoFile = require('./data/myInfo.json');
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 80);
 app.set('appData', infoFile);
 app.set('view engine', 'ejs');
 app.set('views', './Server/views');
