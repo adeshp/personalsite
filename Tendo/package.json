@@ -14,8 +14,8 @@
     "nodedev": "0.0.1",
     "reload": "^1.1.5",
     "twit": "^2.2.5"
-  }
+  },
   "scripts": {
-    "start": "node Server/server.js"
+    "start": "node server.js"
   }
 }
